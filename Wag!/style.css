@@ -1,0 +1,74 @@
+p, h1, a{
+    text-decoration: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: rgb(124, 124, 124);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 650px;
+    font-size: small;
+}
+
+.left-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.whywag {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.items {
+    display: flex;
+    gap: 10px;
+}
+
+.lovedogs{
+    display: flex;
+    height: 600px;
+    background-color: rgb(228, 228, 228);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+.container{
+    display: flex;
+    margin: 100px;
+    margin-bottom: 1000px;
+    gap: 100px;
+}
+
+.hearfrom {
+    text-align: center;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    gap: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+/* .aroundblock{
+    text-align: center;
+    background-color: #073E59;
+} */
