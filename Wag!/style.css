@@ -32,23 +32,26 @@ p, h1, h3, a{
 
 .faces{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
 }
 
 .face{
-    height: 75px; 
-    border-radius: 1000px;
+    height: 60px; 
+    width: 60px;
+    border-radius: 100%;
     border: 3px solid rgb(93, 201, 165);
 }
 
 .signup{
+    background-color: rgb(243, 243, 243);
     border: 1px solid rgb(207, 207, 207);
     border-radius: 20px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     height: 500px;
     width: 400px;
-    padding: 20px;
+    padding: 50px;
+    font-size: 15px;
 }
 
 .id{
@@ -66,6 +69,37 @@ p, h1, h3, a{
     outline: none; 
     font-size: 16px;
     background-color: transparent;
+}
+
+.uppergroup{
+    display: flex;
+}
+
+.qr-code{
+    text-align: center;
+    height: 200px;
+    background-color: white;
+    margin-top: 70px;
+}
+
+.lowergroup{
+    display: grid;
+    gap: 10px;
+}
+
+.button-getstarted{
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 214, 214);
+}
+
+.button-getstarted:hover{
+    transition: 0,5;
+    background-color: rgb(255, 255, 255);
 }
 
 .whywag {
@@ -112,6 +146,13 @@ p, h1, h3, a{
     width: 300px;
 }
 
+.person{
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
 .aroundblock{
     text-align: center;
     background-color: #008080;
@@ -125,7 +166,7 @@ p, h1, h3, a{
     gap: 20px;
 }
 
-.button{
+.button-sign{
     cursor: pointer;
     height: 40px;
     width: 150px;
@@ -135,7 +176,7 @@ p, h1, h3, a{
     background-color: bisque;
 }
 
-.button:hover{
+.button-sign:hover{
     transition: 0,5;
     background-color: rgb(248, 208, 159);
 }
