@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+}
+
+
 p, h1, h3, a{
     text-decoration: none;
     font-family: 'Helvetica', 'Arial', sans-serif;
@@ -179,4 +184,40 @@ p, h1, h3, a{
 .button-sign:hover{
     transition: 0,5;
     background-color: rgb(248, 208, 159);
+}
+
+.conteiner_3 {
+    color: rgb(153, 153, 153);
+    background-color: rgb(228, 228, 228);
+    height: 400px;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+}
+
+.download{
+    display: grid;
+}
+
+.about{
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+}
+
+.ground {
+    display: flex;
+    gap: 200px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.terms {
+    display: flex;
+    gap: 20px;
 }
