@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-size: small;
 }
 
 p, h1, h3, a{
@@ -119,7 +120,7 @@ p, h1, h3, a{
 
 .lovedogs{
     display: flex;
-    height: 600px;
+    height: 500px;
     background-color: rgb(228, 228, 228);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
@@ -160,7 +161,7 @@ p, h1, h3, a{
 .aroundblock{
     text-align: center;
     background-color: #008080;
-    height: 400px;
+    height: 350px;
     padding: 10px;
 }
 
@@ -188,8 +189,8 @@ p, h1, h3, a{
 .conteiner_3 {
     color: rgb(153, 153, 153);
     background-color: rgb(228, 228, 228);
-    height: 450px;
-    padding: 20px;
+    height: 400px;
+    padding: 50px 100px 0px 100px;
 }
 
 .footer {
