@@ -11,26 +11,41 @@
 
         <div class="header">
             <div class="left-items">
-                <a href=""><img src="/public/logo.webp" style="height: 50px; width: 50px;" alt="Wag!"></a>
-                <a href="">Services</a>
-                <a href="">Health & Wellness</a>
+                <a href=""><img src="/assets/logo.webp" style="height: 50px; width: 50px;" alt="Wag!"></a>
+                <select class="select">
+                    <option selected disabled>Services</option>
+                    <option value="opcao1">Services</option>
+                </select>
+                <select class="select">
+                    <option selected disabled>Health & Wellness</option>
+                    <option>Health & Wellness</option>
+                </select>
                 <a href="">References</a>
                 <a href="">Help Center & Safety</a>
             </div>
             <div class="right-items">
-                <a href="">Become a Caregiver</a>
-                <a href="">My Account</a>
+                <select style="color: rgb(93, 201, 165);" class="select">
+                    <option selected disabled>Become a caregiver</option> 
+                    <option>Become a caregiver</option>
+                </select>
+                <div class="account">
+                    <img style="width: 20px;" src="/assets/profile.png">
+                    <select class="select"> 
+                    <option selected disabled>My Account</option>
+                    <option>My Account</option>
+                </select>
+                </div>
             </div>
         </div>
 
         <div class="conteiner">
             <div class="faces">
-                <img class="face" src="/public/caregiver.jpg" alt="Rosto">
-                <img class="face" src="/public/caregiver.jpg" alt="Rosto">
-                <img class="face" src="/public/caregiver.jpg" alt="Rosto">
-                <img class="face" src="/public/caregiver.jpg" alt="Rosto">
-                <img class="face" src="/public/caregiver.jpg" alt="Rosto">
-                <img class="face" src="/public/caregiver.jpg" alt="Rosto">
+                <img class="face" src="/assets/caregiver.jpg" alt="Rosto">
+                <img class="face" src="/assets/caregiver.jpg" alt="Rosto">
+                <img class="face" src="/assets/caregiver.jpg" alt="Rosto">
+                <img class="face" src="/assets/caregiver.jpg" alt="Rosto">
+                <img class="face" src="/assets/caregiver.jpg" alt="Rosto">
+                <img class="face" src="/assets/caregiver.jpg" alt="Rosto">
             </div>
 
             <div class="signup">
@@ -47,16 +62,16 @@
                     </div>
     
                     <div class="qr-code">
-                        <img src="/public/qr-code.png" style="width: 110px;" alt="qrcode">
+                        <img src="/assets/qr-code.png" style="width: 110px;" alt="qrcode">
                         <p>Approved Caregiver? Dowload the app.</p>
                     </div>
 
                 </div>
                 
                 <div class="lowergroup">
-                    <p style="color:rgb(112, 112, 112);">Make money on your on time. Set your own schedule. Enjoy the flexibility of choosing how and when
-                        you want to work---grab a last minute ASAP work our plan out walks weeks in advance!</p>
-                    <div style="color:rgb(112, 112, 112)"><input type="checkbox">I agree to wag terms (including a mutual arbitrating clause) and privacy polity</div>
+                    <p style="color:rgb(112, 112, 112);">By submitting my phone number, I agree to receive automated and non-automated transactional and marketing calls/texts from Wag!. Consent not required; text STOP to 24006 to opt out.
+                         Opt out instructions subject to change. Message and data rates may apply. <a href="" style="color: rgb(93, 201, 165);">Mobile Terms</a> apply.</p>
+                    <div style="color:rgb(112, 112, 112)"><input type="checkbox">I agree to wag <a href="" style="color: rgb(93, 201, 165);">terms</a> (including a <a href="" style="color: rgb(93, 201, 165);">mutual arbitration clause</a>) and <a href="" style="color: rgb(93, 201, 165);">privacy policy</a></div>
                     <div style="color:rgb(112, 112, 112)"><input type="checkbox">I confirm that im a US resident</div>
                     <button class="button-getstarted">Get Started</button>
                 </div>
@@ -68,22 +83,23 @@
             <h1>Why Wag!?</h1>
             <div class="items">
                 <div>
-                    <img src="/public/calendary.jfif" style="height: 50px;" alt="icone">
+                    <img src="/assets/calendary.jfif" style="height: 50px;" alt="icone">
                     <h5>Flexibility</h5>
                     <p>Make money on your on time. Set your own schedule. Enjoy the flexibility of choosing how and when
                         you want to work---grab a last minute ASAP work our plan out walks weeks in advance!</p>
                 </div>
                 <div>
-                    <img src="/public/mapicon.png" style="height: 50px;" alt="icone">
+                    <img src="/assets/mapicon.png" style="height: 50px;" alt="icone">
                     <h5>Technology</h5>
-                    <p>Make money on your on time. Set your own schedule. Enjoy the flexibility of choosing how and when
-                        you want to work---grab a last minute ASAP work our plan out walks weeks in advance!</p>
+                    <p>Wag! is a fast, friendly, and convinient platform that offers instant pay, real-time GPS tracking, automated
+                        report cards, and live chat with clients.
+                    </p>
                 </div>
                 <div>
-                    <img src="/public/to-do.png" style="height: 50px;" alt="icone">
+                    <img src="/assets/to-do.png" style="height: 50px;" alt="icone">
                     <h5>Safety</h5>
-                    <p>Make money on your on time. Set your own schedule. Enjoy the flexibility of choosing how and when
-                        you want to work---grab a last minute ASAP work our plan out walks weeks in advance!</p>
+                    <p>Our dedicated 24/7 customer support team sticks by you, and services booked on the Wag! platform may be protected
+                         with up to $1M property damage protection. See the <a href="" style="color: rgb(93, 201, 165);">customer claims policy</a> for details.</p>
                 </div>
             </div>
         </div>
@@ -99,7 +115,7 @@
                         walks for Wag!</a>
                 </div>
                 <div>
-                    <img src="/public/lovedogs.jfif" style="width: 400px; border-radius: 10px;"
+                    <img src="/assets/lovedogs.jfif" style="width: 400px; border-radius: 10px;"
                         alt="Cachorro com seu caregiver">
                 </div>
             </div>
@@ -111,17 +127,17 @@
                 <div class="profile">
                     <p>Make money on your on time. Set your own schedule. Enjoy the flexibility of choosing how and when
                         you want to work---grab a last minute ASAP work our plan out walks weeks in advance!</p>
-                    <img class="person" src="/public/caregiver.jpg" alt="Rosto">
+                    <img class="person" src="/assets/caregiver.jpg" alt="Rosto">
                 </div>
                 <div class="profile">
                     <p>Make money on your on time. Set your own schedule. Enjoy the flexibility of choosing how and when
                         you want to work---grab a last minute ASAP work our plan out walks weeks in advance!</p>
-                    <img class="person" src="/public/caregiver.jpg" alt="Rosto">
+                    <img class="person" src="/assets/caregiver.jpg" alt="Rosto">
                 </div>
                 <div class="profile">
                     <p>Make money on your on time. Set your own schedule. Enjoy the flexibility of choosing how and when
                         you want to work---grab a last minute ASAP work our plan out walks weeks in advance!</p>
-                    <img class="person" src="/public/caregiver.jpg" alt="Rosto">
+                    <img class="person" src="/assets/caregiver.jpg" alt="Rosto">
                 </div>
             </div>
         </div>

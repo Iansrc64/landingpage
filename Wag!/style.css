@@ -1,9 +1,12 @@
-body{
+body {
     margin: 0;
     font-size: small;
 }
 
-p, h1, h3, a{
+p,
+h1,
+h3,
+a {
     text-decoration: none;
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: rgb(124, 124, 124);
@@ -13,8 +16,18 @@ p, h1, h3, a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 600px;
-    font-size: small;
+    gap: 450px;
+}
+
+.select {
+    cursor: pointer;
+    border: 1px solid white;
+    color: rgb(124, 124, 124);
+}
+
+.account{
+    display: flex;
+    cursor: pointer;
 }
 
 .left-items {
@@ -29,26 +42,26 @@ p, h1, h3, a{
     gap: 20px;
 }
 
-.conteiner{
+.conteiner {
     display: flex;
     justify-content: center;
     gap: 200px;
 }
 
-.faces{
+.faces {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.face{
-    height: 60px; 
+.face {
+    height: 60px;
     width: 60px;
     border-radius: 100%;
     border: 3px solid rgb(93, 201, 165);
 }
 
-.signup{
+.signup {
     background-color: rgb(243, 243, 243);
     border: 1px solid rgb(207, 207, 207);
     border-radius: 20px;
@@ -58,40 +71,40 @@ p, h1, h3, a{
     padding: 50px;
 }
 
-.id{
+.id {
     border: 2px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
-    width: 300px; 
+    width: 300px;
     margin: 10px;
 }
 
 .id input[type="text"] {
-    width: 100%; 
+    width: 100%;
     padding: 8px;
-    border: none; 
-    outline: none; 
+    border: none;
+    outline: none;
     font-size: 16px;
     background-color: transparent;
 }
 
-.uppergroup{
+.uppergroup {
     display: flex;
 }
 
-.qr-code{
+.qr-code {
     text-align: center;
     height: 200px;
     background-color: white;
     margin-top: 70px;
 }
 
-.lowergroup{
+.lowergroup {
     display: grid;
     gap: 10px;
 }
 
-.button-getstarted{
+.button-getstarted {
     cursor: pointer;
     height: 40px;
     width: 150px;
@@ -101,8 +114,8 @@ p, h1, h3, a{
     background-color: rgb(214, 214, 214);
 }
 
-.button-getstarted:hover{
-    transition: 0,5;
+.button-getstarted:hover {
+    transition: 0, 5;
     background-color: rgb(255, 255, 255);
 }
 
@@ -117,14 +130,14 @@ p, h1, h3, a{
     gap: 10px;
 }
 
-.lovedogs{
+.lovedogs {
     display: flex;
     height: 500px;
     background-color: rgb(228, 228, 228);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
-.container_1{
+.container_1 {
     display: flex;
     margin: 100px;
     margin-bottom: 1000px;
@@ -141,7 +154,7 @@ p, h1, h3, a{
     gap: 20px;
 }
 
-.profile{
+.profile {
     display: flex;
     border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
@@ -150,27 +163,27 @@ p, h1, h3, a{
     width: 300px;
 }
 
-.person{
+.person {
     height: 130px;
     width: 130px;
     border-radius: 100%;
     margin-top: 30px;
 }
 
-.aroundblock{
+.aroundblock {
     text-align: center;
     background-color: #008080;
     height: 350px;
     padding: 10px;
 }
 
-.conteiner_2{
+.conteiner_2 {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.button-sign{
+.button-sign {
     cursor: pointer;
     height: 40px;
     width: 150px;
@@ -180,8 +193,8 @@ p, h1, h3, a{
     background-color: bisque;
 }
 
-.button-sign:hover{
-    transition: 0,5;
+.button-sign:hover {
+    transition: 0, 5;
     background-color: rgb(248, 208, 159);
 }
 
@@ -196,11 +209,11 @@ p, h1, h3, a{
     display: flex;
 }
 
-.download{
+.download {
     display: grid;
 }
 
-.about{
+.about {
     display: flex;
     gap: 100px;
     margin-left: 300px;
@@ -216,17 +229,17 @@ p, h1, h3, a{
     gap: 10px;
 }
 
-.space{
+.space {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
 
 .line {
-    height: 1px; 
-    background-color: rgb(196, 196, 196); 
-    width: 100%; 
-  }
+    height: 1px;
+    background-color: rgb(196, 196, 196);
+    width: 100%;
+}
 
 .terms {
     display: flex;
